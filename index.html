@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Users</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #user-cards-container {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .user-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 16px;
+        padding: 16px;
+        width: 250px;
+        text-align: center;
+      }
+      .user-card img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+      .user-card h2 {
+        font-size: 18px;
+        margin: 8px 0;
+      }
+      .user-card p {
+        margin: 4px 0;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="nameFilter" />
+    <div id="user-cards-container"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Users</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+      .user-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 16px;
+        padding: 16px;
+        width: 250px;
+        text-align: center;
+      }
+      .user-card img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+      .user-card h2 {
+        font-size: 18px;
+        margin: 8px 0;
+      }
+      .user-card p {
+        margin: 4px 0;
+        color: #555;
+      }
+      .filter-input {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="nameFilter"
+      class="filter-input"
+      placeholder="Enter characters to filter by name"
+    />
+    <div id="user-cards-container"></div>
+    <script src="main.js"></script>
+  </body>
+</html> -->
